@@ -1,0 +1,281 @@
+/* Importation de la police moderne */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Styles généraux */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212; /* Fond sombre */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+}
+
+.logo {
+    max-width: 100%; /* S'assure que le logo ne dépasse pas la largeur de l'écran */
+    height: auto; /* Garde l'aspect ratio */
+}
+
+h1, h2 {
+    color: #ffb400; /* Jaune/orange pour rappeler le logo du jeu */
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.8rem; /* Taille pour les sous-titres */
+}
+
+blockquote {
+    border-left: 5px solid #ffb400;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+a {
+    color: #ffb400;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e69e00;
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Image responsive */
+img {
+    width: 100%; /* Rendre les images responsives */
+    height: auto; /* Conserver l'aspect ratio */
+    object-fit: cover; /* Assure un bon rendu sans déformation */
+    border-radius: 5px;
+}
+
+/* Hover uniquement pour les images des nains et biomes */
+.nain img, .biome img {
+    transition: transform 0.3s ease;
+}
+
+.nain img:hover, .biome img:hover {
+    transform: scale(1.05); /* Effet de zoom au survol */
+}
+
+/* Tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    transform: translateY(-10px);
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Nains Container */
+.nains-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.nain {
+    flex-basis: calc(50% - 10px);
+    text-align: center;
+    max-width: 220px;
+    margin: 0 auto;
+}
+
+.image-nains{
+    max-width: 300px; 
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 5px;
+    margin: 0 auto; 
+    display: block; 
+}
+
+/* Biomes Container */
+.biomes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.biome {
+    flex-basis: calc(50% - 10px);
+    text-align: center;
+}
+
+.point{
+    width: 24px;
+}
+
+.classe_logo{
+    width: 48px;
+}
+
+.cinetique{
+    color: #F5F3A6; 
+    text-transform: uppercase; 
+    font-weight: bold;   
+}
+
+.feu{
+    color: #D5331A; 
+    text-transform: uppercase; 
+    font-weight: bold;   
+}
+
+.acide{
+    color: #7DBC2F; 
+    text-transform: uppercase; 
+    font-weight: bold;   
+}
+
+.electrique{
+    color: #29E3EF; 
+    text-transform: uppercase; 
+    font-weight: bold;   
+}
+
+.plasma{
+    color: #AC15DC; 
+    text-transform: uppercase; 
+    font-weight: bold;   
+}
+
+.explosive, .jetable, .construction, .projectiles, .lourde, .legere {
+    color: white; 
+    text-transform: uppercase; 
+    font-weight: bold;
+}
+
+/* Responsive Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+table th {
+    background-color: #404040;
+    color: #ffb400;
+}
+
+table td {
+    background-color: #333;
+}
+
+/* Styles pour les tablettes */
+@media (min-width: 768px) {
+    body {
+        padding: 30px;
+    }
+
+    h1, h2 {
+        margin: 30px 0;
+    }
+
+    .nain {
+        flex-basis: calc(25% - 15px);
+    }
+
+    .image-nains{
+        max-width: 500px; 
+        width: 100%; 
+        height: auto; 
+        object-fit: cover; 
+        border-radius: 5px;
+        margin: 0 auto; 
+        display: block; 
+    }
+
+    .image-biomes {
+        max-width: 600px; 
+        width: 100%; 
+        height: auto; 
+        object-fit: cover; 
+        border-radius: 5px;
+        margin: 0 auto; 
+        display: block; 
+    }
+
+    table th, table td {
+        padding: 15px;
+    }
+}
+
+/* Styles pour les desktops */
+@media (min-width: 1024px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    section {
+        margin-bottom: 40px;
+    }
+
+    table th, table td {
+        padding: 20px;
+    }
+}
