@@ -14,17 +14,17 @@ Ce projet est un site fan dédié à *Deep Rock Galactic: Survivor*, un auto-sho
 
 ### Classes de Nains
 Le site comprend 4 pages dédiées aux classes de nains, chacune avec des informations détaillées sur les capacités et le gameplay :
-- [Ingénieur](./public/pages/classes/page_ingenieur.html) 
-- [Soldat](./public/pages/classes/page_soldat.html) 
-- [Foreur](./public/pages/classes/page_foreur.html) 
-- [Scout](./public/pages/classes/page_scout.html) 
+- [Ingénieur](https://alexandrethedwarf.github.io/Molengeek-selection/public/pages/classes/page_ingenieur.html) 
+- [Soldat](https://alexandrethedwarf.github.io/Molengeek-selection/public/pages/classes/page_soldat.html) 
+- [Foreur](https://alexandrethedwarf.github.io/Molengeek-selection/public/pages/classes/page_foreur.html) 
+- [Scout](https://alexandrethedwarf.github.io/Molengeek-selection/public/pages/classes/page_scout.html) 
 
 ### Biomes
 Il y a également 4 pages dédiées aux différents biomes, offrant des descriptions des environnements dans lesquels les joueurs évoluent :
-- [Les Cavernes Cristallines](./public/pages/biomes/Cavernes_Cristallines.html) 
-- [Le Noyau Magmatique](./public/pages/biomes/Noyau_Magmatique.html) 
-- [L'Hallier Creux](./public/pages/biomes/Hallier_Creux.html) 
-- [Les Puits de Sel](./public/pages/biomes/Puits_de_Sel.html) 
+- [Les Cavernes Cristallines](https://alexandrethedwarf.github.io/Molengeek-selection/public/pages/biomes/Cavernes_Cristallines.html) 
+- [Le Noyau Magmatique](https://alexandrethedwarf.github.io/Molengeek-selection/public/pages/biomes/Noyau_Magmatique.html) 
+- [L'Hallier Creux](https://alexandrethedwarf.github.io/Molengeek-selection/public/pages/biomes/Hallier_Creux.html) 
+- [Les Puits de Sel](https://alexandrethedwarf.github.io/Molengeek-selection/public/pages/biomes/Puits_de_Sel.html) 
 
 ## Installation
 Pour installer le projet, clonez le dépôt et ouvrez le fichier `index.html` dans votre navigateur.
@@ -36,4 +36,4 @@ cd deep-rock-galactic-survivor
 
 ## Déploiement
 
-Le site est déployé et vous pouvez donc le trouver [ici]()
+Le site est déployé et vous pouvez donc le trouver [ici](https://alexandrethedwarf.github.io/Molengeek-selection/)
