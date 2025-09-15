@@ -189,6 +189,12 @@ img {
     font-weight: bold;   
 }
 
+.glace{
+    color: #90d6ff; 
+    text-transform: uppercase; 
+    font-weight: bold;   
+}
+
 .explosive, .jetable, .construction, .projectiles, .lourde, .legere {
     color: white; 
     text-transform: uppercase; 
