@@ -211,7 +211,7 @@ img {
     font-weight: bold;   
 }
 
-.explosive, .jetable, .construction, .projectiles, .lourde, .legere {
+.explosive, .jetable, .construction, .projectiles, .lourde, .legere, .drone, .zone {
     color: white; 
     text-transform: uppercase; 
     font-weight: bold;
